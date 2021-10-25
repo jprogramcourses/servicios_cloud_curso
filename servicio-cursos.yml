@@ -1,6 +1,8 @@
 server:
   port: 8000
 spring:
+  application:
+    name: servicio-cursos
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     password: mysql
